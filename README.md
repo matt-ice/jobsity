@@ -5,6 +5,7 @@ Solution was created using FastAPI with a local SQLite database as storage while
 ## How to run
 The requirements.txt file is included for all the dependancies and the easiest way to test it is to install uvicorn by running pip install uvicorn from the terminal.
 Run it from terminal by entering uvicorn --host 0.0.0.0 and adding --reload if you plan to make changes to the code during testing
+After that just open your browser and go to http://127.0.0.1:8000/docs or http://127.0.0.1:8000/redoc , whatever your preference is
 
 ## Next steps for improvement
 Dockerize the solution
